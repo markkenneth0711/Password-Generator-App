@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6495ED;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c8d8f4;
+}
+
+.password-container{
+    background-color: #6084c6;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 15px;
+    width: 20rem;
+    height: 24rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #90a7d0;
+}
+
+.title {
+    text-align: center;
+    color: black;
+}
+
+.line {
+    margin: 0.2rem;
+    color: black;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove spinner arrows */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#passwordLength{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    width: 9rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    padding: 0.6rem;
+    border-style: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: #276de6;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    margin-right: 0.4rem;
+}
+
+.btn {
+    margin: 0.4rem;
+    margin-left: 2.6rem;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#generate {
+    width: 10.4rem;
+    height: 2rem;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: #2361d2;
+    color: #c0d1f1;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+#generate:hover {
+    transition: 0.3s;
+    box-shadow: 2px 2px 1px black;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(223, 231, 245);
+    font-weight: 550;
+    font-size: 1.1em;
+    margin: auto;
+}
+
+.imp {
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="password-container">
+
+        <h1 class="title">Password Generate 🌝 App 🌝</h1>
+
+        <hr class="line">
+
+        <span class="input"><input type="number" id="passwordLength"></span>
+        <div class="btn-wrapper">
+           <label class="btn">
+            <input type="checkbox" id="symbolBtn">
+            Includes <span class="imp">Symbols</span> Characters
+            </label>
+
+            <label class="btn">
+            <input type="checkbox" id="numberBtn">
+            Includes <span class="imp">Numbers</span> Characters
+            </label>
+
+            <label class="btn">
+            <input type="checkbox" id="lowercaseBtn">
+            Includes <span class="imp">Lowercase</span> Characters
+            </label>
+
+            <label class="btn">
+            <input type="checkbox" id="uppercaseBtn">
+            Includes <span class="imp">Uppercase</span> Characters
+            </label>
+        </span>
+        <button id="generate" class="generate" onclick="getPassword()">Generate</button>
+
+        <hr class="line">
+
+        <div class="outputWrapper">
+            <span id="output" class="output"></span>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
